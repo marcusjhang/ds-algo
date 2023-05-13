@@ -1,5 +1,3 @@
-package datastructures;
-
 public class LinkedList {
     Node head; 
 
