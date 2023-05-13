@@ -1,4 +1,4 @@
-package CS2040.datastructures;
+package datastructures;
 
 public class LinkedList {
     Node head; 

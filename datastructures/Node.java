@@ -1,5 +1,3 @@
-package CS2040.datastructures;
-
 public class Node{
     Node next;
     int data;
