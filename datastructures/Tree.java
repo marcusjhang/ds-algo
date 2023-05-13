@@ -1,5 +1,3 @@
-package CS2040.datastructures;
-
 public class Tree {
     public class Node {
         Node left, right;

@@ -1,5 +1,3 @@
-package CS2040.datastructures;
-
 // Flexible size. First in first out (FIFO)
 
 public class Queue {

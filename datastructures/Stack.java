@@ -1,5 +1,3 @@
-package CS2040.datastructures;
-
 // Flexible size. Last in first out (LIFO)
 
 public class Stack {
