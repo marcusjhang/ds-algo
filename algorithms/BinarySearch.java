@@ -1,5 +1,5 @@
 public class BinarySearch { 
-    public static boolean BinarySearch (int[] array, int x, int left, int right) {
+    public static boolean binarySearch (int[] array, int x, int left, int right) {
         if (left > right) {
             return false;
         }
@@ -8,9 +8,9 @@ public class BinarySearch {
         if (array[mid] == x) {
             return true;
         } else if (x < array[mid]) {
-            return BinarySearch(array, x, left, mid-1);
+            return binarySearch(array, x, left, mid-1);
         } else {
-            return BinarySearch(array, x, mid + 1, right);
+            return binarySearch(array, x, mid + 1, right);
         }
     }
 }
